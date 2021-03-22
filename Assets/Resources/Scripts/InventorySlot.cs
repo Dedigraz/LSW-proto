@@ -5,13 +5,6 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
-	public Image icon;
-	public GameObject InventoryObj;
-
-	private void Update()
-	{
-		
-	}
 	public void UseItem()
 	{ 
 		FindObjectOfType<AttireRenderer>().ChangeSprite();

@@ -1,8 +1,0 @@
-﻿things to fix
-	wallet display
-	purchasing function
-	sprite renderer
-
-things to edit
-	DIALOGUE BOx
-	Shop Window

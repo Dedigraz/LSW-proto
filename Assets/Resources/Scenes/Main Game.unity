@@ -339,8 +339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -4.47}
-  m_SizeDelta: {x: 66.61684, y: 95.278114}
+  m_AnchoredPosition: {x: 0.00000122, y: 6.9}
+  m_SizeDelta: {x: 107.15825, y: 107.594475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &208153815
 MonoBehaviour:
@@ -361,8 +361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2438812286708742730, guid: 17476f1f949b51947a50a9ba177e6e93,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: e85ed7ca6293f3d4aad390d43f87bc9d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -811,7 +810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a6a8978e7bf254aa7ce81d45179501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 208153815}
 --- !u!1 &1025916105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,7 +1563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 191cf66f325b7a44c943f19f50fb7bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 1607462528}
   DefaultSprite: {fileID: -2438812286708742730, guid: 17476f1f949b51947a50a9ba177e6e93,
     type: 3}
   BeachSprite: {fileID: -2100585633457620430, guid: eb758b43482839943affaf47032562fe,
@@ -1919,10 +1916,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    ClerkTalk: Welcome, most important tool in any adventure is the costume, press
-      [I] to go through yur stuff and change on the change mat.
-    button1Text: I'm just checking around
-    button2Text: I want to buy something
+    ClerkTalk: Hello there adventurer, before you begin on your journey why not do
+      it in a change of clothes
+    button1Text: Just checking
+    button2Text: I'm buying
 --- !u!1 &1848368927
 GameObject:
   m_ObjectHideFlags: 0
