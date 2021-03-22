@@ -5,9 +5,9 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogue
 {
-	public string ClerkTalk = "Welcome, most important tool in any adventure is the costume, press [I] to go through yur stuff and change on the change mat.";
+	public string ClerkTalk = "Hello there adventurer, before you begin on your journey why not do it in a change of clothes";
 	[TextArea(3, 10)]
-	public string button1Text ="I'm just checking around";
+	public string button1Text ="Just chilling";
 	[TextArea(3, 10)]
-	public string button2Text = "I want to buy something";
+	public string button2Text = "Buy from terminal";
 }
